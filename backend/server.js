@@ -19,7 +19,7 @@ app.get('/api/work', (request, response) => {
 });
 
 app.get('/api/education', (request, response) => {
-	response.send('[{"yearFrom": "1972", "yearTo": "2001", "place": "Le Cole du Vie", "comment": "Studying"}, {"yearFrom": "2001", "yearTo": "2004", "place": "Barista academy", "comment": "Made coffee"}]');
+	response.send('[{"yearFrom": "1973", "yearTo": "2001", "place": "Le Cole du Vie", "comment": "Studying"}, {"yearFrom": "2001", "yearTo": "2004", "place": "Barista academy", "comment": "Made coffee"}]');
 	logger.info('Responded to GET request on /api/edu')
 });
 
